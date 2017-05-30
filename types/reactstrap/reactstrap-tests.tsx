@@ -3286,3 +3286,14 @@ function Example106() {
     </Nav>
   );
 }
+
+function Example107() {
+    return (
+        <Form className="some-class">
+            <Label sm={3} id="label">
+                Label
+            </Label>
+            <Input type="text" getRef={(e: HTMLInputElement) => {}}/>
+        </Form>
+    );
+}

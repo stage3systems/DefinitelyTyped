@@ -38,6 +38,7 @@ interface InputProps extends Intermediate {
   tag?: React.ReactType;
   addon?: boolean;
   className?: string;
+  getRef?: (event: HTMLInputElement) => void;
   // We don't have the property 'static' here because 'static' is a reserved keyword in TypeScript
   // Maybe reactstrap will support an 'isStatic' alias in the future
 }
